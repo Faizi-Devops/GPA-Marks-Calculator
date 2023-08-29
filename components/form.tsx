@@ -329,7 +329,7 @@ const Form = () => {
                                 {
                                     data?.map((value: any, index: any) => {
                                         return (
-                                            <tr>
+                                            <tr key={index}>
                                                 <th scope="row">{index + 1}</th>
                                                 <td>{value?.subject}</td>
                                                 <td>{value?.Semwork}</td>

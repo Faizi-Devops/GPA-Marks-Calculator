@@ -8,6 +8,7 @@ import Result from '../components/result'
 
 
 
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
   {/* <Form/> */}
   {/* <Slider /> */}
   <Result/>
+ 
   
     </div>
   )
